@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color: #FDFEF8;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* index.html */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #FDFEF8;
+  background-color: #3a3b38;
+}
+a{
+  color: #FDFEF8;
+  text-decoration: none;
+}
+
+#header-title{
+  font-size: 1.3rem;
+}
+
+.nav-links{
+  list-style: none;
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 1rem;
+  font-size: .9rem;
+}
+
+.nav-links li a{
+  font-size: 1.5rem;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: #0088a9
+}
+
+/* home.html */
+.header-img-1{
+  width: 100%;
+}
+
+/* index.html */
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+}
+
+/* About */
+
+#polar-bear-stat-img{
+  width: 100%;
+  display: block;
+  z-index: -1;
+  top: 100px;
+  left: 50px;
+}
+
+.info-section{
+  color: white;
+}
+
+.right-element{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-60%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#stat-text{
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #FDFEF8;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.274);
+  padding: 2rem;
+  border-radius: 0%;
+  top: 100px;
+  left: 50px;
+}
+
+.img-box{
+  position: relative;
+  z-index: 0;
+}
+
+#vulnerable{
+  color: #FEA401;
+  font-family: Impact;
+  font-size: 3rem;
+  padding-bottom:0;
+  margin-top: 0;
+  padding-top: 0;
+  justify-content: flex-start;
+}
+
+.redacted{
+  color: black;
+  background-color: black;
+  border: solid;
+}
+
+#bottom{
+  font-size: 1rem;
+  color: black;
+}
+#top{
+  color: black;
+}
+
+.not-underlined{
+  text-decoration: none !important;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+#habitat{
+  overflow: auto;
+  background-color: #FDFEF8 !important;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.right-image-section{
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.left-text-section{
+  margin-top:7rem;
+  float: left;
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.right-text-section{
+  margin-top:7rem;
+  float: right;
+  width: 45%;
+  margin-right:2.5%;
+}
+
+.left-image-section{
+  display: flex;
+  float: left;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.paragraph-title{
+  font-family:Verdana, Tahoma, sans-serif;
+  font-weight: 10;
+  color: #176092;
+  text-align: center; 
+}
+
+.paragraph-text{
+  color: #3a3b38;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#habitat-img{
+  width: 100%;
+} 
+
+#physical-adaptations{
+  overflow: auto;
+  background-color: #FDFEF8;
+}
+
+#adaptation-img{
+  width: 100%;
+}
+
+#diet-img{
+  width: 100%;
+}
+
+#diet{
+  overflow: auto;
+  box-sizing: border-box;
+  background-color: #FDFEF8;
+}
+
+#behavioral-traits{
+  overflow: auto;
+  box-sizing: border-box;
+  background-color: #FDFEF8;
+}
+
+#fat-polar-bear-img{
+  width:100%;
+}
+
+#reproduction{
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+#reproduction-img{
+  width: 100%;
+}
+
+/*Lebron AI*/
+
+#btn1 {
+  margin: auto;
+  background: linear-gradient(45deg, #A020F0, #EFBF04);
+  color: white !important;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 30vh;
+}
+
+#ai-input{
+  margin-bottom: 1rem;
+  margin: auto;
+  text-decoration: none;
+  background-color: #fff;;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem
+}
+
+#ask{
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lebron-ai-container{
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  grid-auto-flow: row;
+  gap: 10px;
+  background-color: #464646;
+  border-radius: 15px;
+  width: 80vh;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+#output1{
+  color: white;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#lebron-img{
+  width: 100%;
+  display: block;
+  z-index: -1;
+  top: 100px;
+  left: 50px;
+}
+#output1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/*THREATS*/
+
+.flip-card{
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back{
+  background-image: url("/static/images/climate_change.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back{
+  background-color: rgb(75, 75, 75);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-img{
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.flip-card-text{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;  /* Vertical centering */
+  justify-content: center;  /* Horizontal centering */
+  height: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.flip-card-container{
+  display: grid;
+  grid-column: auto;
+  grid-template-rows: repeat(auto-fit,55%);
+  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#threats-title{
+  width: 100%;
+  color: white;
+  background-color:rgb(156, 156, 156);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: red;
+  background-image: url("/static/images/climate_change.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-filter: grayscale(50%);
+}
+
+
+/*Strategies*/
+
+.title{
+  font-family:Verdana, Tahoma, sans-serif;
+  font-weight: 10;
+  color: #176092;
+  text-align: center; 
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+
+.flip-card-done{
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner-done{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-done:hover .flip-card-inner-done{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-done, .flip-card-back-done{
+  background-image: url("/static/images/ice.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front-done{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-done{
+  background-color: rgb(75, 75, 75);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-img-done{
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.flip-card-text-done{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;  /* Vertical centering */
+  justify-content: center;  /* Horizontal centering */
+  height: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.done{
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fit,55%);
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/*do*/
+
+#what-do{
+  margin-top: 3rem;
+}
+
+
+.flip-card-do{
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner-do{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-do:hover .flip-card-inner-do{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-do, .flip-card-back-do{
+  background-image: url("/static/images/trump_fight_two.jpg");
+  background-position: 25% 30%;
+  background-size: 200%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front-do{
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-do{
+  background-color: rgb(75, 75, 75);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-img-do{
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.flip-card-text-do{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;  /* Vertical centering */
+  justify-content: center;  /* Horizontal centering */
+  height: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.do{
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fit,55%);
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
