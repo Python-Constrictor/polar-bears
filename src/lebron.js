@@ -28,7 +28,6 @@ async function updatePage(){
 }
 
 document.addEventListener('click', function(event){
-    console.log("HERE");
     if(event.target.id === 'btn1'){
         updatePage()
     }
